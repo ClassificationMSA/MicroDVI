@@ -17,6 +17,7 @@ This is the contains replication packages accompanying our paper, Migrating Mono
 + ### DayTrader
     - DayTrader is an online stock trading system based on the JsP Model 2 architecture, using Java EE, JSF, EJB, and JDBC.
     - https://github.com/WASdev/sample.daytrader7
+  
 ## Project structure
 + ### Ground truths
     - This folder contains the microservice identification results provided by web app experts for the subject web applications.
