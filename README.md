@@ -1,5 +1,6 @@
 # Migrating Monolithic Web Applications to Microservice Architectures Considering Dependencies on Databases and Views
-This is the contains replication packages accompanying our paper, Migrating Monolithic Web Applications to Microservice Architectures Considering Dependencies on Databases and Views. 
+ 
+This package includes the datasets utilized in the study mentioned in the paper.
 
 ## Subject web applications
 + ### JPetStore2
@@ -17,11 +18,10 @@ This is the contains replication packages accompanying our paper, Migrating Mono
 + ### DayTrader
     - DayTrader is an online stock trading system based on the JsP Model 2 architecture, using Java EE, JSF, EJB, and JDBC.
     - https://github.com/WASdev/sample.daytrader7
-  
 ## Project structure
 + ### Ground truths
     - This folder contains the microservice identification results provided by web app experts for the subject web applications.
-    - In the ground truths, each of labels indicates a particural service.
+    - In the ground truths, each of labels indicates a particular service.
     - JPetStore2: 
         + 0 (Order service), 1 (Account service), 2 (Cart service), 3 (Catalog service), C (Common component), N/U (Not used)
     - JPetStore6:
